@@ -1,16 +1,10 @@
 (function() {
   'use strict';
 
-  self.addEventListener('install', function(event) {
-    console.log('Service worker installing...');
-  });
+  // TODO - Add install event listener
 
-  self.addEventListener('activate', function(event) {
-    console.log('Service worker activating...');
-  });
+  // TODO - Add activate event listener
 
-  self.addEventListener('fetch', function(event) {
-    console.log('Fetching:', event.request.url);
-  });
+  // TODO - Add fetch event listener
 
 })();

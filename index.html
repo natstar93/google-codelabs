@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <!-- Set title -->
     <title>Service Worker Example</title>
-    
+
   </head>
 
   <body>
@@ -21,17 +21,7 @@
       (function() {
         'use strict';
 
-        if (!navigator.serviceWorker) {
-          console.log('Service worker not supported');
-          return;
-        }
-        navigator.serviceWorker.register('service-worker.js')
-        .then(function(registration) {
-          console.log('Registered at scope:', registration.scope);
-        })
-        .catch(function(error) {
-          console.log('Registration failed:', error);
-        });
+        // TODO - Register the service worker
 
       })();
     </script>
