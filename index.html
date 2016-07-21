@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Set the viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set character encoding -->
+    <meta charset="utf-8">
+    <!-- Set title -->
+    <title>Service Worker Example</title>
+    
+  </head>
+
+  <body>
+
+    <h1>Service Worker Example</h1>
+
+    <a href="other.html">Other page</link>
+
+    <script>
+      (function() {
+        'use strict';
+
+        if (!navigator.serviceWorker) {
+          console.log('Service worker not supported');
+          return;
+        }
+        navigator.serviceWorker.register('service-worker.js')
+        .then(function(registration) {
+          console.log('Registered at scope:', registration.scope);
+        })
+        .catch(function(error) {
+          console.log('Registration failed:', error);
+        });
+
+      })();
+    </script>
+
+  </body>
+</html>
