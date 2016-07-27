@@ -1,10 +1,8 @@
 (function() {
   'use strict';
 
-  // TODO - Add install event listener
+  // TODO - Put step 5 code here
 
-  // TODO - Add activate event listener
-
-  // TODO - Add fetch event listener
+  // TODO - Put step 6 code here
 
 })();
