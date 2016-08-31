@@ -1,7 +1,3 @@
-# service-worker-skeleton
-
-Trivial service worker that logs its events.
-
 ## Simple service worker
 In this project you will learn how to create a basic service worker script, install it, and do simple debugging.
 
